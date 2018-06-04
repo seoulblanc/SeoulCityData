@@ -1,23 +1,25 @@
-import requests
 import json
+import requests
 
 URL1 = 'http://openapi.seoul.go.kr:8088/'
 KEY = ''
-URL2 = 'json/InfoTrdarSelng/1/20/201702' # 파일타입/원하는데이터이름/페이지시작/페이지끝/년월
+URL2 = '/json/InfoTrdarSelng/1/20/201702'  # 파일타입/원하는데이터이름/페이지시작/페이지끝/년월
 URL = URL1 + KEY + URL2
 print(URL)
+
+list01 = []
 
 def main():
     try:
         source_code = requests.get(URL)
         plain_text = source_code.text
         mydatas = json.loads(plain_text)
-
+        print(mydatas)
     except Exception as e:
         print(e)
         print("Error for URL")
 
-    list01 = []
+def getData():
     for comment in mydatas['InfoTrdarSelng']['row']:
         list01.append(comment['TRDAR_CD_NM'])
         list01.append(comment['THSMON_SELNG_AMT'])
@@ -31,7 +33,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
