@@ -2,7 +2,7 @@ import requests
 import json
 
 URL1 = 'http://openapi.seoul.go.kr:8088/'
-KEY = '4b4b49774773656f3731426d715148/'
+KEY = ''
 URL2 = 'json/InfoTrdarSelng/1/20/201702' # 파일타입/원하는데이터이름/페이지시작/페이지끝/년월
 URL = URL1 + KEY + URL2
 print(URL)
