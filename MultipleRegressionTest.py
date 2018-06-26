@@ -26,8 +26,8 @@ model.add(Dense(24, input_dim =8, activation='relu'))
 model.add(Dense(6, activation='relu'))
 model.add(Dense(1))
 
-model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(X_train, Y_train, epochs=500, batch_size=10)
+model.compile(loss='mean_squared_error', optimizer='adam', metrics=['accuracy'])
+model.fit(X_train, Y_train, epochs=200, batch_size=10)
 Y_prediction = model.predict(X_test).flatten()
 
 for i in range(10):
