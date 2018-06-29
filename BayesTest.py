@@ -97,8 +97,6 @@ pre, scorelist = bf.predict("무료배송")
 print('결과 = ', pre)
 print(scorelist)
 
-
-
 pre, scorelist = bf.predict("일정 컨펌")
 print('결과= ', pre)
 print(scorelist)
