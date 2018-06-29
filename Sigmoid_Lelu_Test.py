@@ -1,3 +1,7 @@
+# Sigmoid 와 Lelu 함수를 활용한 이항분류 예시 코드
+# 히든 레이어 2개의 층 생성 
+# 15개의 input 요소에 대하여 학습
+
 from keras.models import Sequential
 from keras.layers import Dense
 import numpy as np
