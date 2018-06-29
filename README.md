@@ -2,7 +2,7 @@
 <h1 align="center">업종별 매출연관성에 기초한 골목상권 창업 입지 추천 </h1>
 
 
-![ex_photo](./image/titlet.png)
+![ex_photo](./image/title.png)
 
 <p align="center">중소상공인의 창업 입지 선정에 실직적인 도움을 줄 수 있는 지표를 개발하기 위하여 '서울시 골목상권 추정매출' 공공데이터를 활용하여 분석 함</p>
 
@@ -58,7 +58,7 @@
 
 - Conclusion3 : 관련 업종의 매출지수와 현재 매출규모를 비교하여 분석하여 획일적인 상권 추천이 아닌 업종에 따른 차별화를 꾀할 수 있었음
 
-![ex_photo](./image/last.png)
+![ex_photo](./image/last.PNG)
 
 
 
