@@ -1,3 +1,5 @@
+# 상관계수에 따른 heatmap 그리기 
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -13,6 +15,8 @@ df = pd.read_csv('c:/seoul_bigdata/category_category.csv', delimiter=',')
 print(len(df.columns))
 print(df.shape)
 
+# 18열 부터 32열까지 df로 생성
+# 의류점과 패션잡화에 na값이 있는 행을 제거
 df = df.iloc[ : , np.r_[18, 32]]
 df = df[df.의류점 != 0]
 df = df[df.패션잡화 != 0]
