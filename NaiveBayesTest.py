@@ -1,3 +1,7 @@
+# 1. 로드한 자연어 데이터를 Twitter pos 를 이용하여 조사를 나눔
+# 2. Navie Bayes Classifier를 이용하여 '광고'와 '중요' 두 개의 카테고리로 나누어 문장을 학습 시킨 후
+# 3. 간단한 테스트 문장으로 분류 성능 확인
+
 import math, sys
 from konlpy.tag import Twitter
 
