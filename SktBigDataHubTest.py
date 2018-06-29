@@ -1,9 +1,12 @@
+# SKT Big Data Hub에서 제공하는 <배달 업종 이용 현황 분석> api 호출하기
+# https://www.bigdatahub.co.kr/product/view.do?pid=1001785
+
 import requests
 import json
 import pandas as pd
 
 URL1 = 'https://api.bigdatahub.co.kr/v1/datahub/datasets/search.json?pid=1001814'
-URL3 = '&TDCAccessKey=' #key 
+URL3 = '&TDCAccessKey=' #key 추가 필요 
 
 result = []
 
