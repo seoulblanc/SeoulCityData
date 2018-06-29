@@ -1,3 +1,8 @@
+# 서울 열린데이터 광장 '서울시 골목상권 추정매출' api 호출하기
+
+# 호출 내역(key) 설명 참조
+# http://data.seoul.go.kr/dataList/datasetView.do?infId=OA-13331&srvType=S&serviceKind=1 
+
 import json
 import requests
 import pandas as pd
