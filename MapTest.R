@@ -1,4 +1,5 @@
-# 출처: http://dbrang.tistory.com/1054 [dBRang [dɪ'·bɪ·raŋ]]
+# 좌표(위도, 경도) 데이터를 가지고 ggmap, ggplot2 패키지를 이용하여 지도에 상권 위치 표시
+# 코드 참고: http://dbrang.tistory.com/1054 [dBRang [dɪ'·bɪ·raŋ]]
 
 library(ggplot2)
 library(ggmap)
@@ -16,7 +17,6 @@ kor = get_map(gc, zoom=14, maptype = "roadmap")
 
 # -- 레이어2 : 지도위에 포인트
 ggmap(kor) + geom_point(data=street, aes(x=LON, y=LAT, color=factor(상권명)), size=8)
-
 kor.map = ggmap(kor) + geom_point(data=street, aes(x=LON, y=LAT, color=factor(상권명)), size=7)
 
 # -- 레이어3 : 지도위에 텍스트 추가
