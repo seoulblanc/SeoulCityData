@@ -4,7 +4,7 @@
 
 ![ex_photo](./image/title.png)
 
-<p align="center">중소상공인의 창업 입지 선정에 실직적인 도움을 줄 수 있는 지표를 개발하기 위하여 '서울시 골목상권 추정매출' 공공데이터를 활용하여 분석 함</p>
+중소상공인의 창업 입지 선정에 실직적인 도움을 줄 수 있는 지표를 개발하기 위하여 '서울시 골목상권 추정매출' 공공데이터를 활용하여 분석 함
 
 <p align="center"><a href="http://www.fcmedia.co.kr/news/articleView.html?idxno=3228> 창업의 성패를 좌우하는 입지 선정 ! </a></p>
 
